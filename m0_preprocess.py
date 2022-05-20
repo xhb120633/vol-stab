@@ -15,7 +15,7 @@ What we need to do
 
 # path to the current file 
 path = os.path.dirname( os.path.abspath(__file__))
-
+#path = 'C:\\Users\\51027\\Documents\\GitHub\\vol-stab'
 #--------------------------------------------------
 #  Preprocess to extract the control reward group 
 #--------------------------------------------------

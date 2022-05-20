@@ -24,7 +24,7 @@ parser.add_argument('--group', '-g', help='fit to ind or fit to the whole group'
 parser.add_argument('--agent_name', '-n', help='choose agent', default='SMModel')
 parser.add_argument('--cross_valid', '-k', help='do cross validatio or not', default=0)
 parser.add_argument('--n_cores', '-c', help='number of CPU cores used for parallel computing', 
-                                            type=int, default=0)
+                                            type=int, default=4)
 parser.add_argument('--seed', '-s', help='random seed', type=int, default=2021)
 args = parser.parse_args()
 args.path = path

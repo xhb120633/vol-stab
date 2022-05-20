@@ -63,7 +63,7 @@ class subj:
             agent.memory.push( mem) 
             agent.plan_act()
             act   = int( data.action[t])
-            rew   = obs[ act]
+            rew   = obs[act]
             # store 
             mem = { 'act': act,  'rew': rew,     't': t }    
             agent.memory.push( mem)

@@ -14,8 +14,8 @@ path = os.path.dirname(os.path.abspath(__file__))
 ## pass the hyperparams
 parser = argparse.ArgumentParser(description='Test for argparse')
 parser.add_argument('--n_subj', '-f', help='f simulations', type=int, default=1)
-parser.add_argument('--data_set', '-d', help='choose data set', default='exp1_rew')
-parser.add_argument('--agent_name', '-n', help='choose agent', default='RDModel2')
+parser.add_argument('--data_set', '-d', help='choose data set', default='exp1_all')
+parser.add_argument('--agent_name', '-n', help='choose agent', default='SMModel')
 parser.add_argument('--n_cores', '-c', help='number of CPU cores used for parallel computing', 
                                             type=int, default=0)
 args = parser.parse_args()
